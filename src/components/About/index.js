@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
@@ -14,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './index.scss';
 
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
+  const [letterClass] = useState('text-animate');
 
   // useEffect(() => {
   //     return setTimeout(() => {
